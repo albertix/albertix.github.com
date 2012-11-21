@@ -2,7 +2,7 @@
 layout: post
 title: "博客折腾记"
 description: ""
-category: {}
+category: how-to
 tags: [jekyll, 折腾]
 ---
 {% include JB/setup %}

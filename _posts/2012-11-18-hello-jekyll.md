@@ -2,7 +2,7 @@
 layout: post
 title: "Jekyll折腾记"
 description: ""
-category: 
+category: how-to
 tags: [jekyll, 折腾, 未解之谜]
 ---
 {% include JB/setup %}
