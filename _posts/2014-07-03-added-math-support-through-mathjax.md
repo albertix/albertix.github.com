@@ -29,6 +29,12 @@ $$\LaTeX$$
 
 但是仅仅经过kramdown编译，不在html中加入相应库，浏览器还是不能正常识别显示的。这个库，就是MathJax啦。找到`_includes/themes/THEME/default.html`，在`<head>`中插入：
 
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 大功告成。
+
+----------
+
+$$E=mc^2$$
+
+$$\because \therefore科学道理，国家机密，不告诉你$$
