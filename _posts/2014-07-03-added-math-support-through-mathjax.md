@@ -3,7 +3,7 @@ layout: post
 title: "使用MathJax为jekyll添加Latex支持"
 description: ""
 category: 
-tags: [jekyll mathjax]
+tags: [jekyll, mathjax]
 ---
 {% include JB/setup %}
 
