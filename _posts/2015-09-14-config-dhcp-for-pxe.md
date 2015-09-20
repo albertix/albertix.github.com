@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "config dhcp for pxe"
+title: "为PXE设置dhcp服务"
 description: ""
 category: 
 tags: []
