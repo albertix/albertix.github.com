@@ -66,6 +66,7 @@ ubuntu 一句话
     #登录远程服务器
     ssh username@RemoteHost
     #将公匙添加至authorized_keys
+    #注意authorized_keys权限必须为 600
     cat RemoteHost_rsa.pub >> ~/.ssh/authorized_keys
     #删除公匙
     rm RemoteHost_rsa.pub
@@ -110,7 +111,7 @@ ubuntu 一句话
 
     cat ~/.ssh/RemoteHost_rsa.pub | ssh remote "mkdir -p ~/.ssh && cat >>  ~/.ssh/authorized_keys"
 
-根据该命令制作脚本，向`~/bin`中加入`ssh-copy-pub`。
+根据该命令制作脚本，向`~/bin`中加入`ssh-copy-pub`。注意，此时远程服务器上必须有`~/.ssh/authorized_keys`文件，否则要创建该文件，并设置权限`chmod 600 ~/.ssh/authorized_keys`。
 
     #!/bin/bash
     
