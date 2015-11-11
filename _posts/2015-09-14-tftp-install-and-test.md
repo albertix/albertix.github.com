@@ -26,7 +26,7 @@ ubuntu下安装特别简单
 
 添加权限
     
-    chmod ugo+rx tftp
+    chmod ugo+rx ~/your-dir
 
 #### 重启服务
 
