@@ -24,6 +24,10 @@ ubuntu下安装特别简单
 
 建立软连接
 
+添加权限
+    
+    chmod ugo+rx tftp
+
 #### 重启服务
 
     sudo /etc/init.d/openbsd-inetd restart
