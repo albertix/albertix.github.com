@@ -17,7 +17,7 @@ ubuntu 14.04中，安装`dhcp`只需
 
 有两个配置文件分别是`/etc/default/isc-dhcp-server`，为`eth0`添加dhcp服务，将`INTERFACES=""`改为`INTERFACES="eth0"`。
 
-和`/etc/default/isc-dhcp-server`，配置subnet
+和`/etc/dhcp/dhcpd.conf`，配置subnet
 
     subnet 192.168.1.0 netmask 255.255.255.0 {
       range 192.168.1.210 192.168.1.220;
